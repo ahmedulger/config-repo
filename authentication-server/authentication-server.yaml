@@ -1,6 +1,6 @@
 spring:
   datasource:
-    authentication-manager:
+    authentication-server:
       url: jdbc:postgresql://localhost:5432/authentication-server
       username: admin
       password: asd123
