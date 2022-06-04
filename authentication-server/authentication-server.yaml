@@ -1,7 +1,7 @@
 spring:
   datasource:
     authentication-manager:
-      url: jdbc:postgresql://localhost:5432/authentication-manager
+      url: jdbc:postgresql://localhost:5432/authentication-server
       username: admin
       password: asd123
       driverClassName: org.postgresql.Driver
