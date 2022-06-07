@@ -3,7 +3,8 @@ spring:
     hibernate:
       ddl-auto: create-drop
   liquibase:
-    liquibase-schema: classpath:schema/auth-server-context-schema.sql
+    change-log:classpath: classpath:db/changelog/db.changelog.yaml
+    liquibase-schema: classpath:db/schema/auth-server-context-schema.sql
 
 app:
   security:
